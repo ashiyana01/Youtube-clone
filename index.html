@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="images/youtube-logo.jpeg" class="logo" alt="">
+
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><img src="images/search.png" alt=""></button>
+            
+        </div>
+
+        <img src="images/voice-search.png" class="mic-icon" alt="">
+    
+        <div class="user-options">
+            <img src="images/upload.png" class="icon" alt="">
+            <img src="images/more.png" class="icon" alt="">
+            <img src="images/notification.png" class="icon" alt="">
+
+            <div class="user-dp">
+                <img src="images/user.png" alt="">
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- sidebar starts -->
+
+    <div class="sidebar">
+        <div class="shortcut-links">
+            <a href=""><img src="images/home.png" alt=""><p>Home</p></a>
+            <a href=""><img src="images/explore.png" alt=""><p>Explore</p></a>
+            <a href=""><img src="images/subscriprion.png" alt=""><p>Subscription</p></a>
+            <a href=""><img src="images/library.png" alt=""><p>Library</p></a>
+            <a href=""><img src="images/history.png" alt=""><p>History</p></a>
+            <a href=""><img src="images/playlist.png" alt=""><p>Playlist</p></a>
+            <a href=""><img src="images/messages.png" alt=""><p>Messages</p></a>
+            <a href=""><img src="images/show-more.png" alt=""><p>Show more</p></a>
+            <hr>
+        </div>
+        <div class="subscribed-list">
+            <h3>SUBSCRIBED</h3>
+            <a href=""><img src="images/simon.png" alt=""><p>Simon Baker</p></a>
+            <a href=""><img src="images/tom.png" alt=""><p>Tom Hardy</p></a>
+            <a href=""><img src="images/megan.png" alt=""><p>Megan Ryan</p></a>
+            <a href=""><img src="images/cameron.png" alt=""><p>Cameron Diaz</p></a>
+            <hr>
+        </div>
+        <div class="explore-list">
+            <h3>Explore</h3>
+            <a href=""><i class='bx bx-trending-up'></i><p>Trending</p></a>
+            <a href=""><i class='bx bx-shopping-bag'></i><p>Shopping</p></a>
+            <a href=""><i class='bx bx-music' ></i><p>Music</p></a>
+            <a href=""><i class='bx bx-trophy'></i><p>Sports</p></a>
+            <a href=""><i class='bx bx-news'></i><p>News</p></a>
+            <a href=""><i class='bx bx-bulb'></i><p>Learning</p></a>
+            <a href=""><i class='bx bx-tv'></i><p>Movies</p></a>
+            <hr>
+
+        </div>
+        <div class="setting-list">
+            <a href=""><i class='bx bx-cog' ></i><p>Setting</p></a>
+            <a href=""><i class='bx bxs-flag-alt'></i><p>Report</p></a>
+            <a href=""><i class='bx bx-help-circle' ></i><p>Help</p></a>
+            <hr>
+        </div>
+
+
+        <div class="footer">
+            <p>© 2024 by Ashiyana Shaikh</p>
+        </div>
+    </div>
+    <!-- sidebar end -->
+
+    <!-- Filters start -->
+    <div class="filters">
+        <button class="filter-options active">All</button>
+        <button class="filter-options">News</button>
+        <button class="filter-options">Game shows</button>
+        <button class="filter-options">Music</button>
+        <button class="filter-options">Movies</button>
+        <button class="filter-options">Drama</button>
+        <button class="filter-options">Recently uploaded</button>
+        <button class="filter-options">Live</button>
+        <button class="filter-options">History</button>
+        <button class="filter-options">new to you</button>
+        <button class="filter-options">courses</button>
+    </div>
+    <!-- Filters end -->
+
+    <!-- main -->
+    <div class="container">
+        <!-- <div class="banner">
+            <img src="images/banner.png" alt="">
+        </div> -->
+        <div class="list-container">
+            <div class="vid-list">
+                <a href="play-video.html"><img src="images/thumbnail1.png" class="thumbnail" alt=""></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="play-video.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </a>
+                        <p>Youtube Clone</p>
+                        <p>15K veiws &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play-video.html"><img src="images/thumbnail2.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="play-video.html">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, asperiores!</a>
+                        <p>Youtube Clone</p>
+                        <p>15K veiws &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play-video.html"><img src="images/thumbnail3.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sit.</a>
+                        <p>Youtube Clone</p>
+                        <p>15K veiws &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play-video.html"><img src="images/thumbnail4.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="play-video.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, eum.</a>
+                        <p>Youtube Clone</p>
+                        <p>15K veiws &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play-video.html"><img src="images/thumbnail5.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="play-video.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolores.</a>
+                        <p>Youtube Clone</p>
+                        <p>15K veiws &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play-video.html"><img src="images/thumbnail6.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="play-video.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, unde!</a>
+                        <p>Youtube Clone</p>
+                        <p>15K veiws &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play-video.html"><img src="images/thumbnail7.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="play-video.html">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, fugit.</a>
+                        <p>Youtube Clone</p>
+                        <p>15K veiws &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vid-list">
+                <a href="play-video.html"><img src="images/thumbnail8.png" class="thumbnail" alt=""></a>
+
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="play-video.html">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, aut.</a>
+                        <p>Youtube clone</p>
+                        <p>15K veiws &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="vid-list">
+                <a href="play-video.html"><img src="images/thumbnail1.png" class="thumbnail" alt=""></a>
+                <div class="flex-div">
+                    <img src="images/Jack.png" alt="">
+                    <div class="vid-info">
+                        <a href="play-video.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </a>
+                        <p>Youtube Clone</p>
+                        <p>15K veiws &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<script src="script.js"></script>
+</body>
+</html>
